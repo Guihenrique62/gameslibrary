@@ -1,7 +1,7 @@
-import { Game } from "../interfaces";
+import { GameType } from "../interfaces";
 
 
-export default function Game({title,cover,description,onremove}:Game){
+export default function Game({title,cover,description,onremove}:GameType){
 
     return (
         <div>
