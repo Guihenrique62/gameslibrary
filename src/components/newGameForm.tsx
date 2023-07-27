@@ -15,6 +15,7 @@ export default function newGameForm({addGame}:any){
                 throw new Error("Function not implemented.")
             }
         }; // Gera um objeto Game com os dados do formulário
+
         addGame(newGame); // Adiciona o novo jogo à biblioteca
         setTitle('')
         setCover('')
